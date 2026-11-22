@@ -7,7 +7,7 @@
 <p align="center">Windows 校园网自动认证工具：临时登录优先，统一认证兜底。</p>
 
 <p align="center">
-  <a href="https://github.com/andows7/ggs-wifi/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/andows7/ggs-wifi"></a>
+  <a href="https://github.com/andows7/ggs-wifi/releases/latest"><img alt="Release v1.2.0" src="https://img.shields.io/badge/release-v1.2.0-blue"></a>
   <a href="https://github.com/andows7/ggs-wifi/actions/workflows/ci.yml"><img alt="Build and test" src="https://github.com/andows7/ggs-wifi/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="Windows 10 / 11" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-blue">
   <img alt=".NET Framework 4.8" src="https://img.shields.io/badge/.NET%20Framework-4.8-512BD4">
