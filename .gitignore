@@ -1,0 +1,17 @@
+outputs/
+test-results/
+*.user
+*.suo
+.tools/
+__pycache__/
+*.pyc
+*.log
+*.log.*
+settings.json
+settings.json.tmp
+BrowserProfile/
+*.pfx
+*.p12
+.env
+.env.*
+.vs/

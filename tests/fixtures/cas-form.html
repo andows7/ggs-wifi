@@ -1,0 +1,21 @@
+<form method="post" id="fm1" action="https://cas.gzgs.edu.cn/authserver/login">
+                  <div class="alert alert-danger alert-danger-m mvLoginForm-limit" style="display: none;">
+                    <span></span>
+                  </div>
+                  <!-- <h3 th:utext="#{screen.welcome.instructions}">Enter your Username and Password</h3> --><section class="form-group u-spaceBetween form-group-style">
+                    <!-- <label for="username" th:utext="#{screen.welcome.label.netid}">Username</label> --><div class="form-input-style">
+                      <input class="form-control required" id="username" size="25" tabindex="1" placeholder="请输入登录账号" type="text" accesskey="n" autocomplete="off" name="username" value=""></div>
+                  </section>
+                  <section class="form-group u-spaceBetween form-group-style">
+                    <!-- <label for="password" th:utext="#{screen.welcome.label.password}">Password</label> --><div class="form-input-style">
+                      <input class="form-control required" type="password" id="password" placeholder="请输入登录密码" size="25" tabindex="2" accesskey="p" autocomplete="off" name="password" value=""></div>
+                  </section>
+
+                  <div id="codeContent" style="display: none;">
+                    <section class="form-group u-spaceBetween">
+                      <!-- <label for="password" th:utext="#{screen.welcome.label.password}">Password</label> --><input id="phoneVal" disabled="" class="form-group-account-input form-control required" type="text" placeholder="请输入手机号码"></section>
+                    <section class="form-group u-spaceBetween">
+                      <!-- <label for="password" th:utext="#{screen.welcome.label.password}">Password</label> --><input id="codeVal" class="form-group-code-input  form-control required" type="text" placeholder="请输入5位短信验证码"><span id="codeBtn" class="form-group-code-btn">发送验证码</span>
+                    </section>
+                  </div>
+                  <input type="hidden" name="execution" value="fresh-fixture-token"><input type="hidden" name="_eventId" value="submit"><input type="hidden" name="geolocation"><input class="btn btn-block btn-submit" name="submit" accesskey="l" id="login" tabindex="6" type="submit" value="登录"></form>

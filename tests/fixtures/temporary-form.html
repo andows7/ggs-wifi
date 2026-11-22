@@ -1,0 +1,20 @@
+<!-- Relevant official desktop login controls from /portal.do (2026-11-22).
+     External resources and unrelated recharge UI omitted for an offline fixture. -->
+<form name="loginportalform">
+  <div class="container-login">
+    <div class="container-login-title">用户登陆&nbsp;/&nbsp;LOGIN</div>
+    <div class="form-filed"><i class="fa fa-user"></i>
+      <input type="text" id="userid" placeholder="请输入您的账号"></div>
+    <div class="form-filed"><i class="fa fa-unlock-alt"></i>
+      <input type="password" id="passwd" placeholder="输入您的密码"></div>
+    <div class="links"><div class="link-left">
+      <lable id="serviceMsg">同意协议</lable><input type="checkbox" id="read" />
+    </div></div>
+    <div class="control">
+      <button type="button" id="loginsubmit">临时用户登录</button>
+      <button type="button" id="casAuth" style="margin-top:24px">统一身份认证登录</button>
+    </div>
+  </div>
+  <div style="display:none"><input type="password" id="chargepasswd"></div>
+</form>
+<div id="_alert_msg" style="display:none"></div>
